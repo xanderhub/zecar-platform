@@ -11,8 +11,11 @@
 		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
 		<github.global.server>github</github.global.server>
 		<java.version>1.8</java.version>
-		<swagger.version>2.5.0</swagger.version>
+		<swagger.version>2.7.0</swagger.version>
 		<appache.commons.version>3.6</appache.commons.version>
+		<commons.csv.version>1.4</commons.csv.version>
+		<slf4jlog4j.version>1.7.25</slf4jlog4j.version>
+		<object.version>0.0.1-SNAPSHOT</object.version>
 	</properties>
 
 	<repositories>
@@ -30,7 +33,7 @@
 		<dependency>
 			<groupId>com.gf.util.object</groupId>
 			<artifactId>util.object</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${object.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.springfox</groupId>
@@ -47,7 +50,18 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>${appache.commons.version}</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-csv</artifactId>
+			<version>${commons.csv.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4jlog4j.version}</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -55,8 +69,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
-	
+
+
 	<build>
 		<plugins>
 			<plugin>
