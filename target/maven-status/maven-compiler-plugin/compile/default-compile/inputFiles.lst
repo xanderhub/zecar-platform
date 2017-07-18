@@ -25,6 +25,7 @@ C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\pictures\PictureDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\messages\MessageStatusENUM.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\banner\BannerImpressionDTO.java
+C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\car\CarManufacturersPopularityDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\text\TextDescriptorEntityDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\time\ServerTimeDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\messages\MessageDTO.java

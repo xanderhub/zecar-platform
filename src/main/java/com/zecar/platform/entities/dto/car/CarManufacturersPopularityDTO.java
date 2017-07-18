@@ -4,24 +4,20 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import io.swagger.annotations.ApiModelProperty;
 
-public final class CarManufacturerDTO {
-	@JsonProperty(required=true)
-	@ApiModelProperty(notes="Manufacturer's id", required=true)
-	public String id;
-	
+public final class CarManufacturersPopularityDTO {
 	@JsonProperty(required=true)
 	@ApiModelProperty(notes="Manufacturer's name", required=true)
 	public String name;
 	
-	@JsonProperty(required=false)
-	@ApiModelProperty(notes="Manufacturer's logo id", required=false)
-	public String logo;
+	@JsonProperty(required=true)
+	@ApiModelProperty(notes="Manufacturer's popularity index", required=true)
+	public double popularity;
 	
 	@Override
 	public final int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		return result;
 	}
 	@Override
@@ -32,16 +28,16 @@ public final class CarManufacturerDTO {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		final CarManufacturerDTO other = (CarManufacturerDTO) obj;
-		if (id == null) {
-			if (other.id != null)
+		final CarManufacturersPopularityDTO other = (CarManufacturersPopularityDTO) obj;
+		if (name == null) {
+			if (other.name != null)
 				return false;
-		} else if (!id.equals(other.id))
+		} else if (!name.equals(other.name))
 			return false;
 		return true;
 	}
 	@Override
 	public final String toString() {
-		return "CarManufacturerDTO [id=" + id + ", name=" + name + ", logo=" + logo + "]";
+		return "CarManufacturersPopularityDTO [name=" + name + ", popularity=" + popularity + "]";
 	}
 }
