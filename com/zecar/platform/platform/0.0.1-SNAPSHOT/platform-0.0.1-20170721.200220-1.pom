@@ -17,6 +17,7 @@
 		<slf4jlog4j.version>1.7.25</slf4jlog4j.version>
 		<jsoup.version>1.10.3</jsoup.version>
 		<object.version>0.0.1-SNAPSHOT</object.version>
+		<httpHelper.version>0.0.1-SNAPSHOT</httpHelper.version>
 	</properties>
 
 	<repositories>
@@ -28,9 +29,22 @@
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>JHTTPhelper-mvn-repo</id>
+			<url>https://raw.github.com/myteksp/JHTTPhelper/mvn-repo/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
 	</repositories>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.gf.http</groupId>
+			<artifactId>http</artifactId>
+			<version>${httpHelper.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>com.gf.util.object</groupId>
 			<artifactId>util.object</artifactId>
