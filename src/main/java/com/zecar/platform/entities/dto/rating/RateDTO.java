@@ -10,6 +10,10 @@ public final class RateDTO {
 	public String userId;
 	
 	@JsonProperty(required=true)
+	@ApiModelProperty(notes="User's rating when he rated the item.", required=true)
+	public double userRating;
+	
+	@JsonProperty(required=true)
 	@ApiModelProperty(notes="Item's id.", required=true)
 	public String itemId;
 	
