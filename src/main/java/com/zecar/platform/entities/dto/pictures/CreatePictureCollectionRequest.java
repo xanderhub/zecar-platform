@@ -1,5 +1,6 @@
 package com.zecar.platform.entities.dto.pictures;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -14,6 +15,36 @@ public final class CreatePictureCollectionRequest {
 	@JsonProperty(required=true)
 	@ApiModelProperty(notes="Ids of all pictures", required=true)
 	public List<String> allPics;
+	
+	public CreatePictureCollectionRequest(){}
+	
+	public CreatePictureCollectionRequest(final List<String> headerPics, final List<String> allPics){
+		this.headerPics = headerPics;
+		this.allPics = allPics;
+	}
+	
+	public CreatePictureCollectionRequest(final List<String> headerPics){
+		this(headerPics, new ArrayList<String>(0));
+	}
+	
+	public static final CreatePictureCollectionRequest create(final List<PictureDTO> headerPics, final List<PictureDTO> allPics){
+		final ArrayList<String> h_ids = new ArrayList<String>(headerPics.size());
+		final ArrayList<String> a_ids = new ArrayList<String>(allPics.size());
+		for(final PictureDTO dto : headerPics)
+			h_ids.add(dto.id);
+		
+		for(final PictureDTO dto : allPics)
+			a_ids.add(dto.id);
+		
+		return new CreatePictureCollectionRequest(h_ids, a_ids);
+	}
+	
+	public static final CreatePictureCollectionRequest create(final List<PictureDTO> headerPics){
+		final ArrayList<String> h_ids = new ArrayList<String>(headerPics.size());
+		for(final PictureDTO dto : headerPics)
+			h_ids.add(dto.id);
+		return new CreatePictureCollectionRequest(h_ids);
+	}
 
 	@Override
 	public final int hashCode() {
