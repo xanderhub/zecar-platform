@@ -1,6 +1,7 @@
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\user\ReportUserDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\pictures\CreatePictureCollectionRequest.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\ErrorJsonDTO.java
+C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\pictures\PictureSize.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\user\SignupRequestDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\user\ThirdPartyLoginRequestDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\feed\FeedItemTypeDTO.java
