@@ -10,7 +10,7 @@ public final class TextDescriptorEntityDTO {
 	
 	public TextDescriptorEntityDTO(final float salience, final String entity){
 		this.salience = salience;
-		this.entity = entity;
+		this.entity = entity.toLowerCase();
 	}
 	
 	@JsonProperty(required=false)
