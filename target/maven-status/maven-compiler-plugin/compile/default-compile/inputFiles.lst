@@ -5,6 +5,7 @@ C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\user\SignupRequestDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\user\ThirdPartyLoginRequestDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\text\TextEntity.java
+C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\text\TagDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\feed\FeedItemTypeDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\pictures\PictureCollectionDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\user\UserProfileDTO.java
@@ -22,6 +23,7 @@ C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\user\UserCredentialsDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\car\CarManufacturerDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\car\CarDbCsvModelDTO.java
+C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\text\TaggedEntityDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\user\SocialNetworkDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\banner\BannerDTO.java
 C:\Users\Dmitry\IdeaProjects\Zecar2.0\platform\src\main\java\com\zecar\platform\entities\dto\messages\ChatRoomDTO.java
