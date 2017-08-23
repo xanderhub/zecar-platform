@@ -5,6 +5,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.annotations.ApiModelProperty;
 
 public final class TextDescriptorEntityDTO {
+	
+	public TextDescriptorEntityDTO(){}
+	
+	public TextDescriptorEntityDTO(final float salience, final String entity){
+		this.salience = salience;
+		this.entity = entity;
+	}
+	
 	@JsonProperty(required=false)
 	@ApiModelProperty(notes="Entity salience", required=false)
 	public float salience;
