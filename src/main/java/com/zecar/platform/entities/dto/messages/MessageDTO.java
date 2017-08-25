@@ -31,6 +31,10 @@ public final class MessageDTO {
 	@JsonProperty(required=true)
 	@ApiModelProperty(notes="Timestamp at which the message was sent.", required=true)
 	public long time;
+	
+	@JsonProperty(required=false)
+	@ApiModelProperty(notes="Topics of this message.", required=false)
+	public List<String> topics;
 
 	@Override
 	public final int hashCode() {
@@ -58,6 +62,6 @@ public final class MessageDTO {
 	@Override
 	public final String toString() {
 		return "MessageDTO [id=" + id + ", sender=" + sender + ", parentId=" + parentId + ", text=" + text
-				+ ", attachments=" + attachments + ", time=" + time + "]";
+				+ ", attachments=" + attachments + ", time=" + time + ", topics=" + topics + "]";
 	}
 }
