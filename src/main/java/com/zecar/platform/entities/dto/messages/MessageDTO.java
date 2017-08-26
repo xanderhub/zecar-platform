@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.zecar.platform.entities.dto.attachments.AttachmentDTO;
+import com.zecar.platform.entities.dto.text.TagDTO;
 
 import io.swagger.annotations.ApiModelProperty;
 
@@ -34,7 +35,7 @@ public final class MessageDTO {
 	
 	@JsonProperty(required=false)
 	@ApiModelProperty(notes="Topics of this message.", required=false)
-	public List<String> topics;
+	public List<TagDTO> topics;
 
 	@Override
 	public final int hashCode() {
