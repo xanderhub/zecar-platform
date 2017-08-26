@@ -12,7 +12,13 @@ public final class MessageStatusDTO {
 	@JsonProperty(required=true)
 	@ApiModelProperty(notes="Timestamp.", required=true)
 	public long time;
-
+	
+	public MessageStatusDTO(){}
+	
+	public MessageStatusDTO(final MessageStatusENUM status, final long time){
+		this.status = status;
+		this.time = time;
+	}
 	
 	
 	@Override
