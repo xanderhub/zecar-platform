@@ -36,6 +36,10 @@ public final class MessageDTO {
 	@JsonProperty(required=false)
 	@ApiModelProperty(notes="Topics of this message.", required=false)
 	public List<TagDTO> topics;
+	
+	@JsonProperty(required=false)
+	@ApiModelProperty(notes="Topics of this message.", required=false)
+	public MessageStatusDTO status;
 
 	@Override
 	public final int hashCode() {
@@ -63,6 +67,6 @@ public final class MessageDTO {
 	@Override
 	public final String toString() {
 		return "MessageDTO [id=" + id + ", sender=" + sender + ", parentId=" + parentId + ", text=" + text
-				+ ", attachments=" + attachments + ", time=" + time + ", topics=" + topics + "]";
+				+ ", attachments=" + attachments + ", time=" + time + ", topics=" + topics + ", status=" + status + "]";
 	}
 }
