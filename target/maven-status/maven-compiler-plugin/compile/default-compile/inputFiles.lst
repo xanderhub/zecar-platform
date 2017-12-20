@@ -1,9 +1,9 @@
-/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/attachments/AttachmentTypeDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/pictures/PictureDTOResource.java
-/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/ErrorJsonDTO.java
-/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/GeneralQueryResponseDTO.java
+/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/attachments/AttachmentTypeDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/messages/MessageStatusDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/pictures/CreatePictureCollectionRequest.java
+/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/GeneralQueryResponseDTO.java
+/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/ErrorJsonDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/user/UserCredentialsDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/banner/BannerDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/rating/RateDTO.java
@@ -31,10 +31,10 @@
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/car/CarDbCsvModelDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/user/UserProfileDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/attachments/AttachmentDTO.java
-/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/time/ServerTimeDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/user/SignupRequestDTO.java
-/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/messages/ChatRoomDTO.java
+/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/time/ServerTimeDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/messages/MessageDTO.java
+/Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/messages/ChatRoomDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/pictures/PictureCollectionDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/user/UserDTO.java
 /Users/dmitry/zecar-backend/zecar-platform/src/main/java/com/zecar/platform/entities/dto/messages/MessagePositionDTO.java
