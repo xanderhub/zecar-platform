@@ -36,7 +36,11 @@ public final class MessageDTO {
 	@JsonProperty(required=false)
 	@ApiModelProperty(notes="Topics of this message.", required=false)
 	public List<TagDTO> topics;
-	
+
+	@JsonProperty(required=false)
+	@ApiModelProperty(notes="Car model", required=false)
+	public String carModelID;
+
 	@JsonProperty(required=false)
 	@ApiModelProperty(notes="Topics of this message.", required=false)
 	public MessageStatusDTO status;
