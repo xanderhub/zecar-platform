@@ -130,7 +130,7 @@
 						<include>**/*</include>
 					</includes>
 					<repositoryName>zecar-platform</repositoryName>      <!-- github repo name -->
-					<repositoryOwner>myteksp</repositoryOwner>    <!-- github username -->
+					<repositoryOwner>xanderhub</repositoryOwner>    <!-- github username -->
 				</configuration>
 				<executions>
 					<!-- run site-maven-plugin's 'site' target as part of the build's normal 
